@@ -1,0 +1,26 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 27/01/2025
+ * Time: 10:12
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace name
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			decimal numero;
+			Console.WriteLine("Escreva um número decimal: ");
+			numero = Convert.ToDecimal(Console.ReadLine());
+			Console.WriteLine("O número decimal é: " + numero);
+			
+			Console.WriteLine("Presione algo para sair . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
