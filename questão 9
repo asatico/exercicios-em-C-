@@ -19,7 +19,7 @@ namespace name
 			Console.WriteLine("Informe sua rua:");
 			string rua = Console.ReadLine();
 			Console.WriteLine("Digite o número da residencia:");
-			int num = Convert.ToInt32(Console.ReadLine());
+			string num = Convert.ToString(Console.ReadLine());
 			Console.WriteLine("Digite seu bairro:");
 			string bairro = Console.ReadLine();
 			Console.WriteLine("Digite sua cidade:");
