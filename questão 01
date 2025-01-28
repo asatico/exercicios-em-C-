@@ -1,0 +1,30 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 24/01/2025
+ * Time: 10:35
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace atividade c#
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			int numero;
+			
+			
+			Console.WriteLine("Escreva um núemro inteiro:");
+			numero = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("O número que voce escrevel é:"+ numero);
+			
+			
+			
+			Console.Write("PRESSIONE ALGO PARA FECHAR . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
