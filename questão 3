@@ -1,0 +1,36 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 27/01/2025
+ * Time: 10:12
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace name
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			String palavra;
+			bool verfalse;
+			Console.WriteLine("Escreva sim ou não: ");
+			palavra = Console.ReadLine();
+			Console.WriteLine("A escolha foi: " +  palavra );
+			
+			if (palavra == "sim") {
+				verfalse = true;
+			} else {
+				verfalse = false ;
+			}
+			Console.WriteLine(verfalse);
+			
+			
+			Console.WriteLine("Presione algo para sair . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
+
