@@ -1,0 +1,32 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 27/01/2025
+ * Time: 10:12
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace name
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			float preco;
+			float resutado;
+			float desc;
+			Console.WriteLine("Informe o valor do produto:");
+			preco = float.Parse(Console.ReadLine());
+			Console.WriteLine ("Informe o desconto:");
+			desc = Convert.ToInt32(Console.ReadLine());
+			resutado = preco - (preco*(desc /100));
+			Console.WriteLine("O preço da sua compra deu: " + resutado);
+			
+			
+			Console.WriteLine("Presione algo para sair . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
